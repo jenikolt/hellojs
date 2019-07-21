@@ -1,0 +1,35 @@
+#saper_pole{
+    border: 2px solid black;
+    width: 135px;
+    height: 135px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*
+WIDTH = cell_width*cell_count_by_width+cell_count_by_width*2;
+HEIGHT = ~;
+*/
+
+.cell {
+    width: 25px;
+    height: 25px;
+    background-color: #999999;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+    font-weight: bold;
+}
+
+.cell:hover {
+    background-color: #AAAAAA;
+}
+
+.cell:active {
+    box-shadow: inset 1px 1px 3px #000;
+}
+
+.cell.down{
+    box-shadow: inset 1px 1px 3px #000;
+    background-color: #888888;
+}
